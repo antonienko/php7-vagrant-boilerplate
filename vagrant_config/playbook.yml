@@ -5,6 +5,8 @@
   become_user: root
   roles:
     - tersmitten.composer
+    - {role: bennojoy.mysql, mysql_root_db_pass: pass, mysql_db: [{name: phinx_testing, repl$
   tasks:
     - name: stop nginx
       service: name=nginx state=stopped
+
