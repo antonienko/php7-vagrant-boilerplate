@@ -1,3 +1,4 @@
 ---
 - src: kbrebanov.docker
 - src: tersmitten.composer
+- src: bennojoy.mysql
